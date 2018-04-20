@@ -1,0 +1,23 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "test API server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./scripts/test.js",
+    "test:coverage": "istanbul cover _mocha __test__ -x __test__/*.js"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.1.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nyc": "^11.6.0"
+  }
+}
