@@ -4,4 +4,4 @@ before_script:
 node_js:
   - "7"
 install:
-  - npm test
+  - sh scripts/test-api.sh
