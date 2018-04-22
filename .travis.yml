@@ -1,7 +1,5 @@
 language: node_js
-before_install:
-  - sh scripts/setup-api.sh
 node_js:
   - "7"
-install:
-  - sh scripts/test-api.sh
+install: sh scripts/setup-api.sh
+script: sh scripts/test-api.sh
