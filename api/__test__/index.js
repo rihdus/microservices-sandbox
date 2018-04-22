@@ -17,7 +17,7 @@ describe("Server", function () {
          assert.equal(typeof err, 'undefined', 'Should start successfully')
          try {
             server.close(function (err) {
-               assert.equal(typeof err, 'Object', 'Should stop successfully')
+               assert.equal(typeof err, 'undefined', 'Should stop successfully')
                done()
             })
          } catch (e) {
